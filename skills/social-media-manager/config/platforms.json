@@ -1,0 +1,30 @@
+{
+  "twitter": {
+    "enabled": false,
+    "api_key": "",
+    "api_secret": "",
+    "access_token": "",
+    "access_token_secret": "",
+    "bearer_token": ""
+  },
+  "linkedin": {
+    "enabled": false,
+    "access_token": "",
+    "person_id": ""
+  },
+  "instagram": {
+    "enabled": false,
+    "access_token": "",
+    "business_account_id": ""
+  },
+  "facebook": {
+    "enabled": false,
+    "page_id": "",
+    "page_access_token": ""
+  },
+  "approval": {
+    "required": true,
+    "notify_via": "terminal",
+    "auto_approve_drafts": false
+  }
+}
