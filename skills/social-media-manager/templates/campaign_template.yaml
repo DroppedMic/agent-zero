@@ -1,0 +1,64 @@
+# ClawTeam Social Media Campaign Template
+# Usage: clawteam launch social-media-campaign --team my-campaign
+#
+# This template spawns a coordinated 5-agent swarm for
+# planning, creating, and publishing social media content.
+
+name: social-media-campaign
+description: "Multi-agent social media campaign — content strategy, copywriting, visuals, scheduling, and analytics"
+leader: content-strategist
+
+agents:
+  content-strategist:
+    role: "Content Strategy Lead"
+    task: |
+      You are the campaign content strategist. Your job:
+      1. Research the topic/brief for trending angles
+      2. Create a 7-day content calendar (content-calendar.md)
+      3. Assign platform-specific themes per day
+      4. Define key messages and hashtag strategy
+      5. Coordinate with copywriter and visual-designer
+      Use Claude for ideation. Think about what will actually engage the audience.
+
+  copywriter:
+    role: "Social Media Copywriter"
+    depends_on: [content-strategist]
+    task: |
+      You are the campaign copywriter. Once the content calendar is ready:
+      1. Write platform-optimized posts for every calendar slot
+      2. Twitter/X: 280 chars max, hook-first, 2-4 hashtags
+      3. LinkedIn: Professional storytelling, line breaks, 3-5 hashtags at end
+      4. Instagram: Visual-first captions, hashtag block separate
+      5. Save posts to posts/{day}/{platform}.md
+      Use the content_generator.py script or write directly.
+
+  visual-designer:
+    role: "Visual Content Designer"
+    depends_on: [content-strategist]
+    task: |
+      You are the visual designer. Create image prompts for every post that needs a visual:
+      1. Write compact JSON image generation prompts
+      2. Include style, composition, mood, color palette
+      3. Optimize for each platform's dimensions
+      4. Save to visual-prompts/{day}/{platform}.json
+      Output prompts compatible with AI image generators (Midjourney, DALL-E, Flux).
+
+  scheduler-agent:
+    role: "Publishing Scheduler"
+    depends_on: [copywriter, visual-designer]
+    task: |
+      You are the publishing scheduler. Once all content is ready:
+      1. Use scheduler.py to queue all posts at optimal times
+      2. Verify character limits per platform
+      3. Run dry-runs before committing
+      4. Generate a publishing timeline (publish-timeline.md)
+
+  analytics-tracker:
+    role: "Campaign Analytics"
+    depends_on: []
+    task: |
+      You are the analytics specialist. In parallel:
+      1. Define campaign KPIs (engagement rate, reach, clicks)
+      2. Create a tracking spreadsheet template
+      3. Set up post-campaign analysis framework
+      4. Save to analytics/campaign-kpis.md
