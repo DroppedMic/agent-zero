@@ -44,6 +44,132 @@
     "EquityCenteredLeadership": "Coaching's contribution to equity-centered leadership lies in its capacity to surface the leader's own identity, bias, and theory of change before those patterns are enacted on students and staff [3, 25]. Facilitative stances (Cognitive Coaching, NYCLA) are well suited to the interior work of examining assumptions, while directive moves within Blended Coaching are often necessary to introduce research-based practices in culturally responsive teaching and anti-racist systems design [8, 25, 28]. Low-inference data disciplines—central to NYCLA's model—counter the confirmation bias that can otherwise distort a leader's read of classroom equity [30, 31]. EI-centric coaching equips leaders to stay regulated through predictable backlash dynamics, a frequently decisive capability for sustaining equity commitments under political pressure [15, 20]. Coaches themselves must be prepared in equity; absent that preparation, coaching can inadvertently reinforce the very patterns it is meant to disrupt.",
     "StudentAchievementCorrelation": "The relationship between leader coaching and student achievement is real but indirect, mediated through instructional leadership behaviors, teacher supervision quality, and school climate. Hattie's syntheses place 'instructional leadership' and 'collective teacher efficacy' among the higher-impact influences on learning, with effect sizes in the moderate-to-large range [22-24]. RAND's evaluations of the NISL EDP found measurable achievement gains in schools whose principals completed the curriculum with paired coaching, particularly where coaching extended beyond the formal program window [11, 12]. The empirical pattern is consistent: coaching affects leaders, leaders affect conditions for teaching, and conditions for teaching affect learning—meaning that short-duration, un-paired programs rarely produce detectable student-level effects, while sustained, cohort-embedded coaching linked to explicit standards does."
   },
+  "CrossFrameworkAnalysis": {
+    "SharedPatterns": [
+      "Adult dyadic learning as the operative theory of change. Every framework assumes change happens in a sustained one-to-one (or one-to-few) learning relationship built on reciprocity, not in a workshop or course alone [19, 21].",
+      "A reflective cycle structurally isomorphic to Kolb (concrete experience → reflective observation → abstract conceptualization → active experimentation), regardless of whether the model names it [21].",
+      "Explicit trust and psychological safety as preconditions—coaching only works when the leader can expose uncertainty without political or evaluative cost [2, 6, 32].",
+      "Problem-of-practice anchoring: coaching conversations tie to authentic, current-week dilemmas rather than abstract leadership content [8, 11, 13, 17].",
+      "Dosage sensitivity: across studies, multi-year coaching correlates with durable behavior change; short engagements produce self-report gains at best [11, 12, 22].",
+      "Alignment with explicit leadership standards or competencies (LPPW, NISL executive framework, state standards) to prevent coaching from drifting into personality work [11, 17, 30, 31].",
+      "Emotional and identity work as a non-negotiable layer—even technically-oriented programs (NISL) find that EI capacity gates whether leaders can execute strategy under pressure [15, 20]."
+    ],
+    "KeyDifferences": [
+      {
+        "Dimension": "Coach Stance (Directive vs. Facilitative)",
+        "Contrast": "Cognitive Coaching and NYCLA deliberately suppress directive moves to protect self-directed learning [10, 29, 17]. Blended Coaching explicitly authorizes directive and consultative stances when the leader lacks base knowledge [8, 28]. NISL/EDP leans most heavily toward instructional/consultative coaching built atop a prescriptive curriculum [11, 12]."
+      },
+      {
+        "Dimension": "Primary Unit of Development",
+        "Contrast": "Cognitive Coaching, EI-Centric, and Blended Coaching center the individual leader's cognition or identity. NISL/EDP centers the leader's executive systems (strategy, instructional systems). ISAL centers the cohort as a collective unit of learning [13, 14]. NYCLA sits between individual and role-pipeline, treating the coaching moves as themselves transferable leadership practices [17]."
+      },
+      {
+        "Dimension": "Role of Evidence",
+        "Contrast": "NYCLA is uniquely disciplined about low-inference scripted data as the raw material of coaching debriefs [30, 31]. Cognitive Coaching uses the leader's own internal cognition as the primary 'data.' NISL/RAND uses student-outcome and implementation data at the program-evaluation level [11, 12]. EI-Centric models lean on validated psychometric instruments (EI inventories, 360s) [15, 20]."
+      },
+      {
+        "Dimension": "Relationship to Evaluation",
+        "Contrast": "Cognitive Coaching is definitionally non-evaluative [10, 29]. Blended Coaching preserves confidentiality but the coach may also be a supervisor or mentor, creating role-boundary complexity [8]. NYCLA and NISL typically separate coach from evaluator; ISAL's facilitators are explicitly non-evaluative peers or external experts [13, 14, 17]."
+      },
+      {
+        "Dimension": "Scalability and Cost Structure",
+        "Contrast": "Cohort-and-curriculum models (NISL, ISAL) scale more economically per leader but require significant central infrastructure [11-14]. One-to-one models (Cognitive, Blended, NYCLA) deliver higher per-leader intensity but are coach-capacity-bound, making coach development itself a scaling constraint [8, 10, 17]."
+      },
+      {
+        "Dimension": "Explicit Treatment of Equity",
+        "Contrast": "NYCLA and ISAL foreground equity as a named focus of coaching and cohort work [13, 17, 25]. Cognitive Coaching offers the reflective apparatus but leaves equity content to the leader's own agenda, which can under-surface it without an equity-prepared coach [3, 10, 25]. NISL addresses equity largely through the instructional-systems lens rather than identity work."
+      },
+      {
+        "Dimension": "Target Role",
+        "Contrast": "NISL/EDP and NYCLA are principal-centric; ISAL is built for superintendents [11-14, 17]. Blended, Cognitive, and EI-Centric are role-agnostic and used across the leadership pipeline [8, 10, 15]."
+      }
+    ],
+    "StrengthsAndWeaknessesByFramework": [
+      {
+        "ModelName": "Blended Coaching",
+        "Strengths": [
+          "Calibrates to leader readiness; does not force a single stance on every situation [8, 28].",
+          "Legitimizes expert/instructional support, which closes the knowledge gap novice principals often face.",
+          "Strong fit for principal-supervisor relationships where directive moments are unavoidable."
+        ],
+        "Weaknesses": [
+          "Requires highly skilled coaches who can diagnose stance in real time; untrained coaches collapse into habitual directiveness.",
+          "Role ambiguity when the same coach is also evaluator or mentor can erode psychological safety [32].",
+          "Less empirical yield on distal student outcomes than NISL/EDP."
+        ]
+      },
+      {
+        "ModelName": "Cognitive Coaching",
+        "Strengths": [
+          "Builds durable metacognitive and self-directed learning capacity [10, 29].",
+          "Clean non-evaluative boundary unlocks candor on identity and equity dilemmas [3, 25].",
+          "Portable: leaders coach teachers using the same moves, creating a coherent instructional culture."
+        ],
+        "Weaknesses": [
+          "Can underperform when leaders lack the knowledge base to generate good options through reflection alone.",
+          "Slower time-to-competence for novices under acute performance pressure.",
+          "Impact on student achievement is indirect and difficult to measure in short windows."
+        ]
+      },
+      {
+        "ModelName": "NISL/RAND Executive Development Program",
+        "Strengths": [
+          "Strongest empirical base among the six; RCTs show measurable student-achievement effects in treated schools [11, 12].",
+          "Integrates executive content, simulation, and paired coaching, so transfer is designed in rather than hoped for.",
+          "Cohort-and-curriculum structure scales efficiently across districts and states."
+        ],
+        "Weaknesses": [
+          "High fidelity cost; effects attenuate when dosage is cut or coaching is dropped [11, 12].",
+          "Corporate/executive framing can feel culturally misaligned in contexts that prioritize community and relational leadership.",
+          "Equity treatment is primarily systems-level and can underweight identity and bias work [3, 25]."
+        ]
+      },
+      {
+        "ModelName": "IASA ISAL Cohort Model",
+        "Strengths": [
+          "Directly addresses superintendent isolation, a top driver of exits [2, 4, 13, 14].",
+          "Peer-coaching combined with facilitated convenings builds political and governance judgment that is hard to teach one-to-one.",
+          "Long-horizon cohorts produce dense professional networks that outlast the program."
+        ],
+        "Weaknesses": [
+          "Cohort dynamics are fragile; a few dominant voices or a weak facilitator can degrade the learning for everyone.",
+          "Less tailored to the very different problems of individual participants than one-to-one coaching.",
+          "Peer coaching quality varies widely without explicit training in coaching moves."
+        ]
+      },
+      {
+        "ModelName": "EI-Centric / Situational Coaching",
+        "Strengths": [
+          "Directly targets burnout, regulation, and retention—frontline risks to district stability [2, 6, 15, 20, 32].",
+          "Closes the gap between what leaders know and what they can execute under stress.",
+          "Equips leaders to sustain equity commitments through political backlash [3, 25]."
+        ],
+        "Weaknesses": [
+          "Heavy reliance on psychometric instruments whose validity varies across cultures and contexts.",
+          "Can drift into therapeutic territory without tight boundary management.",
+          "Alone, it does not build technical instructional-leadership competence."
+        ]
+      },
+      {
+        "ModelName": "NYC Leadership Academy Facilitative / Competency-Based Coaching",
+        "Strengths": [
+          "Low-inference data discipline counters bias and produces shared, observable evidence of growth [30, 31].",
+          "Tight coupling to explicit standards (LPPW) keeps coaching developmental rather than personality-driven [17, 18].",
+          "The coaching moves are themselves the moves leaders are learning, creating pipeline coherence."
+        ],
+        "Weaknesses": [
+          "Labor-intensive: shadowing, scripting, and debriefing consume significant coach time per leader.",
+          "Strong facilitative orientation can under-deliver when a leader needs direct instruction on an unfamiliar domain.",
+          "Fidelity depends on extensive coach preparation; diluted versions lose the low-inference rigor that drives the effect."
+        ]
+      }
+    ],
+    "SynthesisInsights": [
+      "No single framework dominates on all criteria. Empirical rigor on student outcomes favors NISL; identity and equity work favors Cognitive, NYCLA, and EI-Centric; retention and isolation favor ISAL and EI-Centric; calibration to leader readiness favors Blended.",
+      "The strongest district implementations hybridize: a Blended stance by default, Cognitive-Coaching discipline for confidentiality and reflection, NYCLA-style low-inference evidence, NISL-style executive curriculum, ISAL-style cohorts, and EI-Centric attention to wellbeing.",
+      "The binding constraint across all models is coach capacity. Without sustained investment in coach development, every framework degrades toward advice-giving, evaluation-by-proxy, or relationship-without-rigor."
+    ]
+  },
   "StrategicRecommendations": [
     "Adopt a Blended Coaching stance as the default district model, explicitly training coaches to move between facilitative and instructional moves and to name the stance they are taking, so leaders are never left to 'discover' practices they have not yet encountered [8, 28].",
     "Separate coaching from evaluation. Guarantee confidentiality between coach and leader, following the Cognitive Coaching discipline, so that the relationship can hold the identity-level and equity-level dilemmas that supervisory relationships cannot [10, 29].",
